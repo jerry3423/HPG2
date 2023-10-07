@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cw2">
+      <UniqueIdentifier>{9167880B-FD70-887C-86EC-9E7CF2F4937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cw2-bake">
+      <UniqueIdentifier>{D1808219-BD4D-DD24-E666-CBCCD29212B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="labutils">
+      <UniqueIdentifier>{A5476A3F-9114-C54A-BA2D-B3F2A659FAD8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="baked_model.hpp" />
+    <ClInclude Include="cw2-bake\index_mesh.hpp">
+      <Filter>cw2-bake</Filter>
+    </ClInclude>
+    <ClInclude Include="cw2-bake\input_model.hpp">
+      <Filter>cw2-bake</Filter>
+    </ClInclude>
+    <ClInclude Include="cw2-bake\load_model_obj.hpp">
+      <Filter>cw2-bake</Filter>
+    </ClInclude>
+    <ClInclude Include="cw2\baked_model.hpp">
+      <Filter>cw2</Filter>
+    </ClInclude>
+    <ClInclude Include="labutils\allocator.hpp">
+      <Filter>labutils</Filter>
+    </ClInclude>
+    <ClInclude Include="labutils\angle.hpp">
+      <Filter>labutils</Filter>
+    </ClInclude>
+    <ClInclude Include="labutils\context_helpers.hxx">
+      <Filter>labutils</Filter>
+    </ClInclude>
+    <ClInclude Include="labutils\error.hpp">
+      <Filter>labutils</Filter>
+    </ClInclude>
+    <ClInclude Include="labutils\to_string.hpp">
+      <Filter>labutils</Filter>
+    </ClInclude>
+    <ClInclude Include="labutils\vkbuffer.hpp">
+      <Filter>labutils</Filter>
+    </ClInclude>
+    <ClInclude Include="labutils\vkimage.hpp">
+      <Filter>labutils</Filter>
+    </ClInclude>
+    <ClInclude Include="labutils\vkobject.hpp">
+      <Filter>labutils</Filter>
+    </ClInclude>
+    <ClInclude Include="labutils\vkutil.hpp">
+      <Filter>labutils</Filter>
+    </ClInclude>
+    <ClInclude Include="labutils\vulkan_context.hpp">
+      <Filter>labutils</Filter>
+    </ClInclude>
+    <ClInclude Include="labutils\vulkan_window.hpp">
+      <Filter>labutils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="baked_model.cpp" />
+    <ClCompile Include="cw2-bake\index_mesh.cpp">
+      <Filter>cw2-bake</Filter>
+    </ClCompile>
+    <ClCompile Include="cw2-bake\load_model_obj.cpp">
+      <Filter>cw2-bake</Filter>
+    </ClCompile>
+    <ClCompile Include="cw2-bake\main.cpp">
+      <Filter>cw2-bake</Filter>
+    </ClCompile>
+    <ClCompile Include="cw2\baked_model.cpp">
+      <Filter>cw2</Filter>
+    </ClCompile>
+    <ClCompile Include="cw2\main.cpp">
+      <Filter>cw2</Filter>
+    </ClCompile>
+    <ClCompile Include="labutils\allocator.cpp">
+      <Filter>labutils</Filter>
+    </ClCompile>
+    <ClCompile Include="labutils\context_helpers.cpp">
+      <Filter>labutils</Filter>
+    </ClCompile>
+    <ClCompile Include="labutils\error.cpp">
+      <Filter>labutils</Filter>
+    </ClCompile>
+    <ClCompile Include="labutils\to_string.cpp">
+      <Filter>labutils</Filter>
+    </ClCompile>
+    <ClCompile Include="labutils\vkbuffer.cpp">
+      <Filter>labutils</Filter>
+    </ClCompile>
+    <ClCompile Include="labutils\vkimage.cpp">
+      <Filter>labutils</Filter>
+    </ClCompile>
+    <ClCompile Include="labutils\vkobject.cpp">
+      <Filter>labutils</Filter>
+    </ClCompile>
+    <ClCompile Include="labutils\vkutil.cpp">
+      <Filter>labutils</Filter>
+    </ClCompile>
+    <ClCompile Include="labutils\vulkan_context.cpp">
+      <Filter>labutils</Filter>
+    </ClCompile>
+    <ClCompile Include="labutils\vulkan_window.cpp">
+      <Filter>labutils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
