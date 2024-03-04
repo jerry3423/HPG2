@@ -1,6 +1,6 @@
 # HPG2
 
-本项目内使用vulkan实现PBR光照，alpha mask， normalmap等效果
+本项目实现了cook-torrance的BRDF，alpha mask， normalmap等效果
 
 ![D](https://github.com/jerry3423/HPG2/assets/64965545/d460e618-b3a2-44be-8eac-4866477cf2df)
 ![F](https://github.com/jerry3423/HPG2/assets/64965545/046e60da-55b9-4cca-aafa-062dae439365)
